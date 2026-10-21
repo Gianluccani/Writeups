@@ -66,7 +66,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Como se puede ver, estan abiertos 2 puertos, el 22(ssh) y el 80(http). Visitando la pagina web, me encuentro con lo siguiente:
 
-![[Dockerlabs/psycho/images/Pasted image 20261019173347.png]]
+![Página web de Psycho](images/Pasted%20image%2020261019173347.png)
 
 A la hora de buscar clickear el boton "Book Your Visit" la pagina no realiza ninguna accion, al igual con el de "Join Now", asi que voy a proceder a hacer fuzzing con `gobuster`:
 
