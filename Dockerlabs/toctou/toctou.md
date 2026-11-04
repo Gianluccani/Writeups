@@ -153,7 +153,7 @@ tar -czf "/var/backups/uploads-${STAMP}.tar.gz" . 2>/dev/null
 ls -1t /var/backups/uploads-*.tar.gz 2>/dev/null | tail -n +6 | xargs -r rm -f
 ```
 
-La instruccion `export PATH=/opt/zumba/bin:$PATH` es peligrosa debido que permite un `path hijacking`, debido a que cuando el script se ejecuta, usara esa ruta en vez de una del sistema. ademas de eso el script se ejecuta como root. Entonces podemos crear un archivo `tar`, el cual despues se usara en dicho script con permisos de root para hacer un backup, si nosotros nos aprovechamos de esto, podemos realizar una reverse shell agregando un archivo tar  con dicho contenido en `/opt/zumba/bin/`
+La instruccion `export PATH=/opt/zumba/bin:$PATH` es peligrosa debido que permite un `path hijacking`, debido a que cuando el script se ejecuta, usara esa ruta en vez de una del sistema. ademas de eso el script se ejecuta como root. Entonces podemos crear un archivo `tar`, el cual despues se usara en dicho script con permisos de root para hacer un backup, si nosotros nos aprovechamos de esto, podemos realizar una reverse shell agregando un archivo tar  con dicho contenido en `/opt/zumba/bin/`.
 
 Contenido del archivo `tar`:
 
