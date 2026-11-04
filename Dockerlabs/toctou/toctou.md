@@ -20,7 +20,7 @@ MAC Address: 6A:D6:9B:11:D2:81 (Unknown)
 
 Ahora, sabiendo que existe una pagina web en el puerto 80(http) es hora de visitar para hacer un relevamiento de posibles vulnerabilidades que se puedan aprovechar. 
 
-[[Dockerlabs/toctou/images/Screenshot_2026-11-03_16_20_53.png]]
+![Imagen del sitio web](Dockerlabs/toctou/images/Screenshot_2026-11-03_16_20_53.png)
 
 Parece que la pagina web es un sitio para subir y compartir archivos como lo es mediafire o MEGA. Tiene 3 secciones, el `inicio`(donde estamos), `Archivos recientes`(donde se ven los archivos subidos) y `Quienes somos`(brinda informacion de la empresa). 
 
