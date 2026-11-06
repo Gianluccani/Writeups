@@ -112,7 +112,7 @@ cd /mnt/romcom && ls
 
 The content of `2025-09-02T08_32_11_5202830_CopyLog.csv` is:
 
-![[Pasted image 20261106081616.png]]
+![Image from CopyLog.csv](https://github.com/Gianluccani/Writeups/edit/main/HTB/sherlocks/RomCom/Pasted image 20261106081616.png)
 
 This is a file which recorded the timestamp to fech the Data and Files. 
 The `System Volume Information is the database file`, the most import part is the file inside `C`.
