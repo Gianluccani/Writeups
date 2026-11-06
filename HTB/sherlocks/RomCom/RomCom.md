@@ -265,7 +265,7 @@ This time the chain resolved as `Startup` → `Programs` → `Start Menu` → `W
 9. What is the associated MITRE Technique ID discussed in the previous question?
 `Answer`:  `T1547.009`  .lnk is a modified shortcut file, uses to be a backdoor and appear for everytime startup.
 
-[[https://attack.mitre.org/techniques/T1547/009/]]
+https://attack.mitre.org/techniques/T1547/009/
 
 10. When was the decoy document opened by the end user, thinking it to be a legitimate document?
 `Answer & Explanation`: 2025-09-02 08:15:05, Using the same logic as Task 5, I searched the USN Journal for the decoy PDF's own Recent Items LNK file and its `FILE_CREATE` event:
